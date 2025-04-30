@@ -7,7 +7,7 @@
 [2,0][2,1][2,2][2,3]
 ```
 * `posh` and `posw` store the Wanderer position
-* Wanderer can start on walls, but can't move towards them
+* Wanderer can't neither start on walls nor move towards them
 
 When testing, Wanderer must be initialized like:
 1. Two integers indicating grid size (vertical then horizontal)
