@@ -9,9 +9,9 @@ public class Wanderer{
         System.out.println("Grid has " + height + " height and " + width + " length."); //debug
 
         // Wanderer position is initialized as 0
-        //System.out.println("["+posh+","+posw+"]");
-        posh = -1;
-        posw = -1;
+        //System.out.println("["+posh+","+posw+"], Beepers: "+beep);
+        posh = posw = -1;
+        beep = 0;
 
         // place walls
         for(int i = 0; i < walls.length; i = i+2){
